@@ -9,6 +9,7 @@
 	display: flex;
 	justify-content: center;
 	align-items: center;
+	box-sizing: border-box;
 }
 #navbar {
 	width: 100%;
@@ -72,5 +73,12 @@
 @media only screen and (max-width: 980px) and (min-width: 360px) {
 	#main-nav {
 		width: 980px;
+		padding: 0 2rem ;
+	}
+	#main-nav ul li:last-child a span {
+		font-size: 12px;
+		width: 20px;
+		height: 20px;
+		font-weight: 500;
 	}
 }

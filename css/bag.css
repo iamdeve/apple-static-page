@@ -101,6 +101,7 @@ button {
 .bag-content {
 	padding-top: 50px;
 	margin-bottom: 100px;
+	box-sizing: border-box;
 }
 .bag-container {
 	margin-left: auto;
@@ -529,4 +530,10 @@ button {
 	border-radius: 12px;
 	white-space: normal;
 	display: inline-block;
+}
+
+@media only screen and (max-width: 980px) {
+	.bag-content{
+		padding: 0 2rem;
+	}
 }
